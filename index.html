@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Creative Developer</title>
-    <meta name="description" content="Portfolio of a creative developer specializing in building digital experiences.">
+    <title>Praveen Kathirvel | Robotics & ML Engineer</title>
+    <meta name="description"
+        content="Portfolio of Praveen Kathirvel, a Robotics & ML Engineer specializing in RL, AV, and MLOps.">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
     <script src="script.js" defer></script>
 </head>
+
 <body>
     <div class="cursor-dot" id="cursor-dot"></div>
     <div class="cursor-outline" id="cursor-outline"></div>
 
     <nav class="navbar">
         <div class="container">
-            <a href="#" class="logo">Portfolio<span class="dot">.</span></a>
+            <a href="#" class="logo">Praveen<span class="dot">.</span></a>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="hamburger">
@@ -37,10 +44,13 @@
             <div class="container hero-content">
                 <div class="hero-text">
                     <span class="subtitle">Hello, I'm</span>
-                    <h1 class="title">Creative <span class="gradient-text">Developer</span> & <br> UI/UX <span class="gradient-text">Designer</span></h1>
-                    <p class="description">I build immersive digital experiences with a focus on aesthetics and performance.</p>
+                    <h1 class="title">Praveen Kathirvel</h1>
+                    <h2 style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--text-secondary);">Robotics & <span
+                            class="gradient-text">ML Engineer</span></h2>
+                    <p class="description">Specializing in Reinforcement Learning, Autonomous Vehicles, and MLOps.
+                        Building intelligent systems that bridge the gap between simulation and reality.</p>
                     <div class="cta-group">
-                        <a href="#projects" class="btn btn-primary">View Work</a>
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
                         <a href="#contact" class="btn btn-secondary">Contact Me</a>
                     </div>
                 </div>
@@ -49,11 +59,13 @@
                     <div class="blob blob-2"></div>
                     <div class="glass-card">
                         <div class="code-snippet">
-                            <pre><code><span class="keyword">const</span> <span class="variable">developer</span> = {
-  <span class="property">name</span>: <span class="string">'You'</span>,
-  <span class="property">passion</span>: <span class="string">'Coding'</span>,
-  <span class="property">level</span>: <span class="string">'Infinite'</span>
-};</code></pre>
+                            <pre><code><span class="keyword">class</span> <span class="variable">RoboticsEngineer</span>:
+    <span class="keyword">def</span> <span class="variable">__init__</span>(<span class="property">self</span>):
+        <span class="property">self</span>.stack = [<span class="string">'ROS 2'</span>, <span class="string">'PyTorch'</span>, <span class="string">'C++'</span>]
+        <span class="property">self</span>.focus = <span class="string">'Autonomy'</span>
+        
+    <span class="keyword">def</span> <span class="variable">optimize</span>(<span class="property">self</span>):
+        <span class="keyword">return</span> <span class="string">"Efficiency Maximized"</span></code></pre>
                         </div>
                     </div>
                 </div>
@@ -65,16 +77,44 @@
                 <h2 class="section-title">About Me</h2>
                 <div class="about-grid">
                     <div class="about-card">
-                        <h3>Design</h3>
-                        <p>I create beautiful, user-centered designs that look great on any device.</p>
+                        <h3>Education</h3>
+                        <p><strong>MSc Robotics</strong><br>University of Birmingham (UK 2.1 Merit)</p>
+                        <p style="margin-top: 1rem;"><strong>B.Tech Mechanical Engineering</strong><br>DTU (8.08 CGPA)
+                        </p>
                     </div>
                     <div class="about-card">
-                        <h3>Development</h3>
-                        <p>I write clean, efficient code using modern technologies and best practices.</p>
+                        <h3>Focus</h3>
+                        <p>I am passionate about solving complex problems in autonomous systems, from fine-tuning LLMs
+                            for robot control to optimizing MLOps pipelines.</p>
                     </div>
                     <div class="about-card">
-                        <h3>Strategy</h3>
-                        <p>I help define the product strategy and roadmap to achieve business goals.</p>
+                        <h3>Location</h3>
+                        <p>Based in <strong>Birmingham, UK</strong>.</p>
+                        <p>Actively seeking roles as a Machine Learning Engineer or Robotics Software Engineer.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="about" style="padding-top: 0;">
+            <div class="container">
+                <h2 class="section-title">Technical Expertise</h2>
+                <div class="about-grid" style="grid-template-columns: 1fr;">
+                    <div class="about-card" style="text-align: center;">
+                        <div class="tags" style="justify-content: center; gap: 1rem;">
+                            <span>Python</span>
+                            <span>C++</span>
+                            <span>ROS 2</span>
+                            <span>PyTorch</span>
+                            <span>TensorFlow</span>
+                            <span>OpenCV</span>
+                            <span>Gazebo</span>
+                            <span>Docker</span>
+                            <span>Linux</span>
+                            <span>Git</span>
+                            <span>Reinforcement Learning</span>
+                            <span>MLOps</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -82,54 +122,82 @@
 
         <section id="projects" class="projects">
             <div class="container">
-                <h2 class="section-title">Featured Projects</h2>
+                <h2 class="section-title">Key Achievements</h2>
                 <div class="project-grid">
                     <!-- Project 1 -->
                     <article class="project-card">
-                        <div class="project-image">
-                            <div class="placeholder-img" style="background: linear-gradient(45deg, #ff6b6b, #feca57);"></div>
-                        </div>
                         <div class="project-info">
-                            <h3>Neon Dashboard</h3>
-                            <p>A futuristic analytics dashboard with real-time data visualization.</p>
+                            <h3>AV Roundabout Navigation</h3>
+                            <p>Achieved <strong>93.9% success rate</strong> in autonomous vehicle roundabout navigation
+                                using tabular Q-Learning, outperforming DQN, PPO, and A2C baselines.</p>
                             <div class="tags">
-                                <span>React</span>
-                                <span>D3.js</span>
-                                <span>CSS Modules</span>
+                                <span>Reinforcement Learning</span>
+                                <span>Python</span>
+                                <span>Simulation</span>
                             </div>
-                            <a href="#" class="project-link">View Project &rarr;</a>
                         </div>
                     </article>
                     <!-- Project 2 -->
                     <article class="project-card">
-                        <div class="project-image">
-                            <div class="placeholder-img" style="background: linear-gradient(45deg, #54a0ff, #5f27cd);"></div>
-                        </div>
                         <div class="project-info">
-                            <h3>E-Commerce Platform</h3>
-                            <p>A seamless shopping experience with modern UI and secure checkout.</p>
+                            <h3>Surgical Robot LLM Control</h3>
+                            <p>Fine-tuned Qwen2.5-7B LLM for UR5e surgical robot control, achieving <strong>97.77%
+                                    accuracy</strong> with ultra-low latency of <strong>0.618s</strong>.</p>
                             <div class="tags">
-                                <span>Next.js</span>
-                                <span>Stripe</span>
-                                <span>Tailwind</span>
+                                <span>LLM Fine-tuning</span>
+                                <span>Robotics</span>
+                                <span>UR5e</span>
                             </div>
-                            <a href="#" class="project-link">View Project &rarr;</a>
                         </div>
                     </article>
                     <!-- Project 3 -->
                     <article class="project-card">
-                        <div class="project-image">
-                            <div class="placeholder-img" style="background: linear-gradient(45deg, #48dbfb, #1dd1a1);"></div>
-                        </div>
                         <div class="project-info">
-                            <h3>AI Chat Interface</h3>
-                            <p>An intelligent conversational interface powered by LLMs.</p>
+                            <h3>Air Quality MLOps Pipeline</h3>
+                            <p>Built a global Air Quality prediction system (R²=0.939) with a robust MLOps pipeline
+                                using FastAPI for real-time deployment.</p>
                             <div class="tags">
-                                <span>TypeScript</span>
-                                <span>OpenAI API</span>
-                                <span>Framer Motion</span>
+                                <span>MLOps</span>
+                                <span>FastAPI</span>
+                                <span>Docker</span>
                             </div>
-                            <a href="#" class="project-link">View Project &rarr;</a>
+                        </div>
+                    </article>
+                    <!-- Project 4 -->
+                    <article class="project-card">
+                        <div class="project-info">
+                            <h3>MRI Segmentation Optimization</h3>
+                            <p>Reduced MRI segmentation inference time by <strong>30%</strong> by developing and
+                                optimizing a custom 2D/3D CNN pipeline.</p>
+                            <div class="tags">
+                                <span>Computer Vision</span>
+                                <span>Deep Learning</span>
+                                <span>Optimization</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="projects">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <div class="project-info">
+                            <h3>Severn Trent Water</h3>
+                            <p class="subtitle" style="margin-bottom: 0.5rem;">MCTI Intern</p>
+                            <p>Led a 9-person team to optimize wastewater treatment using Bayesian optimization,
+                                projecting <strong>20-30% OPEX savings</strong>.</p>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-info">
+                            <h3>SB Marine</h3>
+                            <p class="subtitle" style="margin-bottom: 0.5rem;">Engineering Intern</p>
+                            <p>Automated CAD-to-BOM workflows with Excel macros and designed marine components in Fusion
+                                360, improving engineering efficiency.</p>
                         </div>
                     </article>
                 </div>
@@ -140,9 +208,10 @@
             <div class="container">
                 <div class="contact-wrapper">
                     <div class="contact-text">
-                        <h2 class="section-title">Let's Work Together</h2>
-                        <p>Have a project in mind? I'd love to hear from you. Send me a message and let's create something amazing.</p>
-                        <a href="mailto:hello@example.com" class="email-link">hello@example.com</a>
+                        <h2 class="section-title">Let's Connect</h2>
+                        <p>I am actively applying for roles and open to discussing my projects in depth. Whether it's
+                            about RL algorithms, MLOps architectures, or robotics systems, I'd love to chat.</p>
+                        <a href="mailto:praveen.kathirvel@example.com" class="email-link">Email Me</a>
                     </div>
                     <form class="contact-form">
                         <div class="form-group">
@@ -163,13 +232,14 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Portfolio. All rights reserved.</p>
+            <p>&copy; 2024 Praveen Kathirvel. All rights reserved.</p>
             <div class="social-links">
-                <a href="#">Twitter</a>
-                <a href="#">GitHub</a>
                 <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Portfolio</a>
             </div>
         </div>
     </footer>
 </body>
+
 </html>

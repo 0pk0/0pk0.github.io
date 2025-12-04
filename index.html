@@ -92,81 +92,126 @@
 
         <section id="projects">
             <div class="container">
-                <h2 class="section-title">Selected Projects</h2>
+                <h2 class="section-title">Projects</h2>
                 <div class="project-list">
                     <!-- Project 1 -->
-                    <article class="project-item">
-                        <div class="project-meta">
-                            <span>2024</span>
-                            <br>
-                            <span>Reinforcement Learning</span>
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-img">
+                                <span>AV Simulation Visual</span>
+                            </div>
                         </div>
                         <div class="project-content">
-                            <h3>AV Roundabout Navigation</h3>
-                            <p>Achieved 93.9% success rate in autonomous vehicle roundabout navigation using tabular
-                                Q-Learning. Benchmarked against DQN, PPO, and A2C algorithms in a simulated environment.
+                            <div class="project-header">
+                                <h3>AV Roundabout Navigation</h3>
+                                <span class="year">2024</span>
+                            </div>
+                            <p class="project-description">
+                                Developed a reinforcement learning agent for autonomous vehicle navigation in complex
+                                roundabout scenarios. The system was trained to handle multi-agent interactions and
+                                traffic rules.
                             </p>
+                            <ul class="project-metrics">
+                                <li><strong>93.9%</strong> Success Rate</li>
+                                <li><strong>Tabular Q-Learning</strong> Algorithm</li>
+                                <li><strong>Multi-Agent</strong> Environment</li>
+                            </ul>
                             <div class="project-tech">
                                 <span>Python</span>
                                 <span>Gymnasium</span>
                                 <span>PyTorch</span>
                             </div>
+                            <a href="#" class="btn-link">View Documentation &rarr;</a>
                         </div>
                     </article>
+
                     <!-- Project 2 -->
-                    <article class="project-item">
-                        <div class="project-meta">
-                            <span>2024</span>
-                            <br>
-                            <span>Robotics & LLMs</span>
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-img">
+                                <span>UR5e Robot Control</span>
+                            </div>
                         </div>
                         <div class="project-content">
-                            <h3>Surgical Robot LLM Control</h3>
-                            <p>Fine-tuned Qwen2.5-7B LLM to control a UR5e surgical robot arm. Achieved 97.77% command
-                                accuracy with a latency of 0.618s, enabling natural language interaction for surgical
-                                tasks.</p>
+                            <div class="project-header">
+                                <h3>Surgical Robot LLM Control</h3>
+                                <span class="year">2024</span>
+                            </div>
+                            <p class="project-description">
+                                Fine-tuned Qwen2.5-7B LLM to interpret natural language commands and control a UR5e
+                                surgical robot arm. The system translates text to joint trajectories in real-time.
+                            </p>
+                            <ul class="project-metrics">
+                                <li><strong>97.77%</strong> Accuracy</li>
+                                <li><strong>0.618s</strong> Latency</li>
+                                <li><strong>UR5e</strong> Integration</li>
+                            </ul>
                             <div class="project-tech">
                                 <span>ROS 2</span>
                                 <span>Transformers</span>
                                 <span>UR5e</span>
                             </div>
+                            <a href="#" class="btn-link">View Documentation &rarr;</a>
                         </div>
                     </article>
+
                     <!-- Project 3 -->
-                    <article class="project-item">
-                        <div class="project-meta">
-                            <span>2023</span>
-                            <br>
-                            <span>MLOps</span>
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-img">
+                                <span>MLOps Pipeline</span>
+                            </div>
                         </div>
                         <div class="project-content">
-                            <h3>Air Quality MLOps Pipeline</h3>
-                            <p>Engineered a global Air Quality prediction system achieving R²=0.939. Implemented a full
-                                MLOps pipeline using FastAPI for real-time inference and Docker for containerization.
+                            <div class="project-header">
+                                <h3>Air Quality MLOps Pipeline</h3>
+                                <span class="year">2023</span>
+                            </div>
+                            <p class="project-description">
+                                Engineered a scalable MLOps pipeline for global air quality prediction. The system
+                                handles data ingestion, model training, and real-time inference via API.
                             </p>
+                            <ul class="project-metrics">
+                                <li><strong>R² = 0.939</strong> Accuracy</li>
+                                <li><strong>Real-time</strong> Inference</li>
+                                <li><strong>Dockerized</strong> Deployment</li>
+                            </ul>
                             <div class="project-tech">
                                 <span>FastAPI</span>
                                 <span>Docker</span>
                                 <span>Scikit-learn</span>
                             </div>
+                            <a href="#" class="btn-link">View Documentation &rarr;</a>
                         </div>
                     </article>
+
                     <!-- Project 4 -->
-                    <article class="project-item">
-                        <div class="project-meta">
-                            <span>2023</span>
-                            <br>
-                            <span>Computer Vision</span>
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-img">
+                                <span>MRI Segmentation</span>
+                            </div>
                         </div>
                         <div class="project-content">
-                            <h3>MRI Segmentation Optimization</h3>
-                            <p>Optimized a custom 2D/3D CNN pipeline for MRI segmentation, reducing inference time by
-                                30% without compromising accuracy.</p>
+                            <div class="project-header">
+                                <h3>MRI Segmentation Optimization</h3>
+                                <span class="year">2023</span>
+                            </div>
+                            <p class="project-description">
+                                Optimized a deep learning pipeline for MRI image segmentation. Implemented custom 2D/3D
+                                CNN architectures to improve speed and accuracy.
+                            </p>
+                            <ul class="project-metrics">
+                                <li><strong>30%</strong> Faster Inference</li>
+                                <li><strong>Custom CNN</strong> Architecture</li>
+                                <li><strong>Medical</strong> Imaging</li>
+                            </ul>
                             <div class="project-tech">
                                 <span>TensorFlow</span>
                                 <span>CUDA</span>
                                 <span>Medical Imaging</span>
                             </div>
+                            <a href="#" class="btn-link">View Documentation &rarr;</a>
                         </div>
                     </article>
                 </div>
@@ -219,7 +264,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Praveen Kathirvel</p>
+            <p>&copy; 2025 Praveen Kathirvel</p>
         </div>
     </footer>
 </body>

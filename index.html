@@ -4,269 +4,250 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Praveen Kathirvel | Robotics & ML Engineer</title>
+    <title>Praveen Kathirvel</title>
     <meta name="description"
-        content="Portfolio of Praveen Kathirvel, a Robotics & ML Engineer specializing in RL, AV, and MLOps.">
+        content="Praveen Kathirvel is a Robotics & ML Engineer specializing in Reinforcement Learning, Autonomous Vehicles, and MLOps.">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <a href="#" class="logo">Praveen Kathirvel</a>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+    <table class="main-table">
+        <tbody>
+            <!-- Header Section -->
+            <tr>
+                <td class="header-section">
+                    <table class="header-table">
+                        <tbody>
+                            <tr>
+                                <td class="profile-image-cell">
+                                    <a href="images/profile.jpg">
+                                        <img src="images/profile.jpg" alt="Praveen Kathirvel" class="profile-image">
+                                    </a>
+                                </td>
+                                <td class="bio-cell">
+                                    <p class="name">Praveen Kathirvel</p>
+                                    <p class="bio">
+                                        I'm a Robotics & ML Engineer specializing in Reinforcement Learning, Autonomous
+                                        Vehicles, and MLOps. I hold an <strong>MSc in Robotics</strong> from the
+                                        <a href="https://www.birmingham.ac.uk/">University of Birmingham</a> (UK 2.1
+                                        Merit) and a <strong>B.Tech in Mechanical Engineering</strong> from
+                                        <a href="https://dtu.ac.in/">DTU</a> (8.08 CGPA).
+                                    </p>
+                                    <p class="bio">
+                                        My work spans from fine-tuning LLMs for surgical robotics to developing
+                                        reinforcement learning agents for autonomous vehicle navigation. I'm actively
+                                        seeking opportunities as a Machine Learning Engineer or Robotics Software
+                                        Engineer.
+                                    </p>
+                                    <p class="links">
+                                        <a href="mailto:praveen.kathirvel@example.com">Email</a> &nbsp;/&nbsp;
+                                        <a href="data/PraveenKathirvel-CV.pdf">CV</a> &nbsp;/&nbsp;
+                                        <a href="https://scholar.google.com/">Scholar</a> &nbsp;/&nbsp;
+                                        <a href="https://linkedin.com/">LinkedIn</a> &nbsp;/&nbsp;
+                                        <a href="https://github.com/">Github</a>
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
 
-    <main>
-        <section class="hero">
-            <div class="container">
-                <div class="hero-content">
-                    <span class="subtitle">Robotics & ML Engineer</span>
-                    <h1 class="title">Building intelligent systems that bridge simulation and reality.</h1>
-                    <p class="description">Specializing in Reinforcement Learning, Autonomous Vehicles, and MLOps.
-                        Currently based in Birmingham, UK.</p>
-                    <div class="cta-group">
-                        <a href="#projects" class="btn btn-primary">View Work</a>
-                        <a href="mailto:praveen.kathirvel@example.com" class="btn btn-secondary">Get in Touch</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+            <!-- Projects Section -->
+            <tr>
+                <td class="section">
+                    <h2>Projects</h2>
+                </td>
+            </tr>
 
-        <section id="about">
-            <div class="container">
-                <h2 class="section-title">About</h2>
-                <div class="about-grid">
-                    <div class="about-card">
-                        <h3>Education</h3>
-                        <p><strong>MSc Robotics</strong><br>University of Birmingham (UK 2.1 Merit)</p>
+            <!-- Project 1: AV Roundabout Navigation -->
+            <tr>
+                <td class="project">
+                    <table class="project-table">
+                        <tbody>
+                            <tr>
+                                <td class="project-image-cell">
+                                    <img src="images/av_roundabout.jpg" alt="AV Roundabout Navigation"
+                                        class="project-image">
+                                </td>
+                                <td class="project-details">
+                                    <span class="project-title">AV Roundabout Navigation</span>
+                                    <br>
+                                    <span class="project-description">
+                                        Developed a reinforcement learning agent for autonomous vehicle navigation in
+                                        complex roundabout scenarios using Tabular Q-Learning. Achieved <strong>93.9%
+                                            success rate</strong> in multi-agent traffic environments.
+                                    </span>
+                                    <br>
+                                    <span class="project-tech">Python, Gymnasium, PyTorch</span>
+                                    <br>
+                                    <a href="#">Project Page</a> /
+                                    <a href="#">GitHub</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Project 2: Surgical Robot LLM Control -->
+            <tr>
+                <td class="project">
+                    <table class="project-table">
+                        <tbody>
+                            <tr>
+                                <td class="project-image-cell">
+                                    <img src="images/surgical_robot.jpg" alt="Surgical Robot LLM Control"
+                                        class="project-image">
+                                </td>
+                                <td class="project-details">
+                                    <span class="project-title">Surgical Robot LLM Control</span>
+                                    <br>
+                                    <span class="project-description">
+                                        Fine-tuned Qwen2.5-7B LLM to interpret natural language commands and control a
+                                        UR5e surgical robot arm. Achieved <strong>97.77% accuracy</strong> with
+                                        <strong>0.618s latency</strong> for real-time text-to-trajectory translation.
+                                    </span>
+                                    <br>
+                                    <span class="project-tech">ROS 2, Transformers, UR5e</span>
+                                    <br>
+                                    <a href="#">Project Page</a> /
+                                    <a href="#">GitHub</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Project 3: Air Quality MLOps Pipeline -->
+            <tr>
+                <td class="project">
+                    <table class="project-table">
+                        <tbody>
+                            <tr>
+                                <td class="project-image-cell">
+                                    <img src="images/mlops_pipeline.jpg" alt="Air Quality MLOps Pipeline"
+                                        class="project-image">
+                                </td>
+                                <td class="project-details">
+                                    <span class="project-title">Air Quality MLOps Pipeline</span>
+                                    <br>
+                                    <span class="project-description">
+                                        Engineered a scalable MLOps pipeline for global air quality prediction with
+                                        <strong>R² = 0.939</strong>. Handles data ingestion, model training, and
+                                        real-time inference via Dockerized FastAPI deployment.
+                                    </span>
+                                    <br>
+                                    <span class="project-tech">FastAPI, Docker, Scikit-learn</span>
+                                    <br>
+                                    <a href="#">Project Page</a> /
+                                    <a href="#">GitHub</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Project 4: MRI Segmentation Optimization -->
+            <tr>
+                <td class="project">
+                    <table class="project-table">
+                        <tbody>
+                            <tr>
+                                <td class="project-image-cell">
+                                    <img src="images/mri_segmentation.jpg" alt="MRI Segmentation Optimization"
+                                        class="project-image">
+                                </td>
+                                <td class="project-details">
+                                    <span class="project-title">MRI Segmentation Optimization</span>
+                                    <br>
+                                    <span class="project-description">
+                                        Optimized a deep learning pipeline for MRI image segmentation using custom
+                                        2D/3D CNN architectures. Achieved <strong>30% faster inference</strong> while
+                                        maintaining medical imaging accuracy standards.
+                                    </span>
+                                    <br>
+                                    <span class="project-tech">TensorFlow, CUDA, Medical Imaging</span>
+                                    <br>
+                                    <a href="#">Project Page</a> /
+                                    <a href="#">GitHub</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Experience Section -->
+            <tr>
+                <td class="section">
+                    <h2>Experience</h2>
+                </td>
+            </tr>
+
+            <!-- Experience 1 -->
+            <tr>
+                <td class="experience">
+                    <p>
+                        <strong>Severn Trent Water</strong> — MCTI Intern
                         <br>
-                        <p><strong>B.Tech Mechanical Engineering</strong><br>DTU (8.08 CGPA)</p>
-                    </div>
-                    <div class="about-card">
-                        <h3>Focus</h3>
-                        <p>I apply advanced algorithms to physical systems. My work spans from fine-tuning LLMs for
-                            surgical robotics to optimizing large-scale MLOps pipelines for environmental data.</p>
-                    </div>
-                    <div class="about-card">
-                        <h3>Status</h3>
-                        <p>Actively seeking opportunities as a Machine Learning Engineer or Robotics Software Engineer.
-                            Open to relocation.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+                        <em>Wastewater Treatment Optimization</em>: Led a 9-person team to implement Bayesian
+                        optimization for wastewater treatment processes. Projected 20-30% OPEX savings through
+                        AI-driven parameter tuning.
+                    </p>
+                </td>
+            </tr>
 
-        <section id="skills">
-            <div class="container">
-                <h2 class="section-title">Technical Stack</h2>
-                <div class="skills-grid">
-                    <span class="skill-tag">Python</span>
-                    <span class="skill-tag">C++</span>
-                    <span class="skill-tag">ROS 2</span>
-                    <span class="skill-tag">PyTorch</span>
-                    <span class="skill-tag">TensorFlow</span>
-                    <span class="skill-tag">OpenCV</span>
-                    <span class="skill-tag">Gazebo</span>
-                    <span class="skill-tag">Docker</span>
-                    <span class="skill-tag">Linux</span>
-                    <span class="skill-tag">Git</span>
-                    <span class="skill-tag">Reinforcement Learning</span>
-                    <span class="skill-tag">MLOps</span>
-                    <span class="skill-tag">LLM Fine-tuning</span>
-                </div>
-            </div>
-        </section>
+            <!-- Experience 2 -->
+            <tr>
+                <td class="experience">
+                    <p>
+                        <strong>SB Marine</strong> — Engineering Intern
+                        <br>
+                        <em>Engineering Automation</em>: Automated CAD-to-BOM workflows using Excel macros and designed
+                        marine components in Fusion 360, significantly reducing manual data entry time.
+                    </p>
+                </td>
+            </tr>
 
-        <section id="projects">
-            <div class="container">
-                <h2 class="section-title">Projects</h2>
-                <div class="project-list">
-                    <!-- Project 1 -->
-                    <article class="project-card">
-                        <div class="project-image">
-                            <div class="placeholder-img">
-                                <span>AV Simulation Visual</span>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <div class="project-header">
-                                <h3>AV Roundabout Navigation</h3>
-                                <span class="year">2024</span>
-                            </div>
-                            <p class="project-description">
-                                Developed a reinforcement learning agent for autonomous vehicle navigation in complex
-                                roundabout scenarios. The system was trained to handle multi-agent interactions and
-                                traffic rules.
-                            </p>
-                            <ul class="project-metrics">
-                                <li><strong>93.9%</strong> Success Rate</li>
-                                <li><strong>Tabular Q-Learning</strong> Algorithm</li>
-                                <li><strong>Multi-Agent</strong> Environment</li>
-                            </ul>
-                            <div class="project-tech">
-                                <span>Python</span>
-                                <span>Gymnasium</span>
-                                <span>PyTorch</span>
-                            </div>
-                            <a href="#" class="btn-link">View Documentation &rarr;</a>
-                        </div>
-                    </article>
+            <!-- Skills Section -->
+            <tr>
+                <td class="section">
+                    <h2>Technical Skills</h2>
+                </td>
+            </tr>
 
-                    <!-- Project 2 -->
-                    <article class="project-card">
-                        <div class="project-image">
-                            <div class="placeholder-img">
-                                <span>UR5e Robot Control</span>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <div class="project-header">
-                                <h3>Surgical Robot LLM Control</h3>
-                                <span class="year">2024</span>
-                            </div>
-                            <p class="project-description">
-                                Fine-tuned Qwen2.5-7B LLM to interpret natural language commands and control a UR5e
-                                surgical robot arm. The system translates text to joint trajectories in real-time.
-                            </p>
-                            <ul class="project-metrics">
-                                <li><strong>97.77%</strong> Accuracy</li>
-                                <li><strong>0.618s</strong> Latency</li>
-                                <li><strong>UR5e</strong> Integration</li>
-                            </ul>
-                            <div class="project-tech">
-                                <span>ROS 2</span>
-                                <span>Transformers</span>
-                                <span>UR5e</span>
-                            </div>
-                            <a href="#" class="btn-link">View Documentation &rarr;</a>
-                        </div>
-                    </article>
+            <tr>
+                <td class="skills">
+                    <p>
+                        <strong>Languages:</strong> Python, C++
+                        <br>
+                        <strong>Frameworks:</strong> PyTorch, TensorFlow, ROS 2, OpenCV
+                        <br>
+                        <strong>Tools:</strong> Docker, Git, Linux, Gazebo
+                        <br>
+                        <strong>Specializations:</strong> Reinforcement Learning, MLOps, LLM Fine-tuning
+                    </p>
+                </td>
+            </tr>
 
-                    <!-- Project 3 -->
-                    <article class="project-card">
-                        <div class="project-image">
-                            <div class="placeholder-img">
-                                <span>MLOps Pipeline</span>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <div class="project-header">
-                                <h3>Air Quality MLOps Pipeline</h3>
-                                <span class="year">2023</span>
-                            </div>
-                            <p class="project-description">
-                                Engineered a scalable MLOps pipeline for global air quality prediction. The system
-                                handles data ingestion, model training, and real-time inference via API.
-                            </p>
-                            <ul class="project-metrics">
-                                <li><strong>R² = 0.939</strong> Accuracy</li>
-                                <li><strong>Real-time</strong> Inference</li>
-                                <li><strong>Dockerized</strong> Deployment</li>
-                            </ul>
-                            <div class="project-tech">
-                                <span>FastAPI</span>
-                                <span>Docker</span>
-                                <span>Scikit-learn</span>
-                            </div>
-                            <a href="#" class="btn-link">View Documentation &rarr;</a>
-                        </div>
-                    </article>
-
-                    <!-- Project 4 -->
-                    <article class="project-card">
-                        <div class="project-image">
-                            <div class="placeholder-img">
-                                <span>MRI Segmentation</span>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <div class="project-header">
-                                <h3>MRI Segmentation Optimization</h3>
-                                <span class="year">2023</span>
-                            </div>
-                            <p class="project-description">
-                                Optimized a deep learning pipeline for MRI image segmentation. Implemented custom 2D/3D
-                                CNN architectures to improve speed and accuracy.
-                            </p>
-                            <ul class="project-metrics">
-                                <li><strong>30%</strong> Faster Inference</li>
-                                <li><strong>Custom CNN</strong> Architecture</li>
-                                <li><strong>Medical</strong> Imaging</li>
-                            </ul>
-                            <div class="project-tech">
-                                <span>TensorFlow</span>
-                                <span>CUDA</span>
-                                <span>Medical Imaging</span>
-                            </div>
-                            <a href="#" class="btn-link">View Documentation &rarr;</a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="experience">
-            <div class="container">
-                <h2 class="section-title">Experience</h2>
-                <div class="project-list">
-                    <article class="project-item">
-                        <div class="project-meta">
-                            <span>Severn Trent Water</span>
-                            <br>
-                            <span>MCTI Intern</span>
-                        </div>
-                        <div class="project-content">
-                            <h3>Wastewater Treatment Optimization</h3>
-                            <p>Led a 9-person team to implement Bayesian optimization for wastewater treatment
-                                processes. Projected 20-30% OPEX savings through AI-driven parameter tuning.</p>
-                        </div>
-                    </article>
-                    <article class="project-item">
-                        <div class="project-meta">
-                            <span>SB Marine</span>
-                            <br>
-                            <span>Engineering Intern</span>
-                        </div>
-                        <div class="project-content">
-                            <h3>Engineering Automation</h3>
-                            <p>Automated CAD-to-BOM workflows using Excel macros and designed marine components in
-                                Fusion 360, significantly reducing manual data entry time.</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact">
-            <div class="container">
-                <div class="contact-section">
-                    <h2 class="section-title" style="border: none;">Get in Touch</h2>
-                    <p>I'm always open to discussing new opportunities and technical challenges.</p>
-                    <a href="mailto:praveen.kathirvel@example.com"
-                        class="btn btn-primary">praveen.kathirvel@example.com</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Praveen Kathirvel</p>
-        </div>
-    </footer>
+            <!-- Footer -->
+            <tr>
+                <td class="footer">
+                    <p>
+                        Template inspired by <a href="https://jonbarron.info/">Jon Barron</a>.
+                        <br>
+                        © 2025 Praveen Kathirvel
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>

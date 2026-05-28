@@ -300,6 +300,28 @@
 
             <div class="project">
                 <div class="project-title">
+                    <a href="">Residual Policy Learning — robomimic</a>
+                </div>
+                <div class="project-date">2025</div>
+                <p class="project-description">
+                    Improved a behavioral cloning policy on robomimic's lift-ph manipulation task using offline RL.
+                    Trained a TD3+BC residual corrector with zero-init final layer and per-dim action bounds derived
+                    from BC error diagnostics, rescaling the BC anchor weight to match sparse-reward Q scale (~0.5).
+                    Added a per-dim safety shield to contain OOD spikes. Achieved 90.0% success rate (+3.3 pp over BC)
+                    and 6.1 fewer steps on successful rollouts.
+                </p>
+                <div class="tags">
+                    <span class="tag">TD3+BC</span>
+                    <span class="tag">Behavioral Cloning</span>
+                    <span class="tag">Offline RL</span>
+                    <span class="tag">robomimic</span>
+                    <span class="tag">MuJoCo</span>
+                    <span class="tag">PyTorch</span>
+            </div>
+        </div>
+
+            <div class="project">
+                <div class="project-title">
                     <a href="https://github.com/0pk0/re-act">Re-ACT - Reimplementation of Action Chunking
                         Transformers</a>
                 </div>
